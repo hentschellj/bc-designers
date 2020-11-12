@@ -8,7 +8,7 @@ import SectionFour from './components/SectionFour';
 import Contact from './components/Contact';
 import Social from './components/Social';
 import SectionBottom from './components/SectionBottom';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
