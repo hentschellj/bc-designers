@@ -4,7 +4,7 @@ import logo from '../assets/top-logo.png';
 class SectionTop extends React.Component {
   render() {
     return (
-      <div className="sectionTop">
+      <div className="section-top">
         <div className="container">
           <div className="row">
             <div className="breaks">
