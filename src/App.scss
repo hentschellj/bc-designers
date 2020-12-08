@@ -358,6 +358,7 @@ $desktop: 1200px;
           .content-left {
             display: flex;
             flex-direction: column;
+            word-wrap: break-word;
             @media screen and (min-width: $ipad) {
               flex-direction: row;
               justify-content: space-between;
@@ -406,6 +407,7 @@ $desktop: 1200px;
             }
           }
           .content-right {
+            word-wrap: break-word;
             p {
               display: none;
               width: 100%;
@@ -437,6 +439,7 @@ $desktop: 1200px;
             background: #fff;
             margin: 0 auto;
             padding: 20px 20px 40px 20px;
+            word-wrap: break-word;
             .bottom-top {
               display: flex;
               flex-direction: row;
