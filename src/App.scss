@@ -593,8 +593,9 @@ $desktop: 1200px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        word-break: break-word;
         .content {
-          max-width: 27%;
+          max-width: 28%;
           color: #4a4f6a;
           @media screen and (min-width: $ipad) {
             max-width: 30%;
