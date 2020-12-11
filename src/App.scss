@@ -707,11 +707,13 @@ $desktop: 1200px;
         .lower-content-left {
           @media screen and (min-width: $ipad) {
             width: 50%;
+            float: left;
           }
         }
         .lower-content-right {
           @media screen and (min-width: $desktop) {
             width: 25%;
+            float: right;
           }
           .lower-content-upper {
             p {
