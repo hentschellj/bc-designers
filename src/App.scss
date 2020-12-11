@@ -704,6 +704,11 @@ $desktop: 1200px;
         }
       }
       .section-content-bottom {
+        .lower-content-left {
+          @media screen and (min-width: $ipad) {
+            width: 50%;
+          }
+        }
         .lower-content-right {
           @media screen and (min-width: $desktop) {
             width: 25%;
