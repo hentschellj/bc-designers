@@ -59,14 +59,14 @@ class SectionFour extends React.Component {
             </div>
 
             <div className="section-content-top">
-              <div className="upper-content-left">
+              <div className="upper-content left">
                 <img src={topImage} alt="Section Four Upper" />
                 <p>100,000 New Sign Ups</p>
                 <p>XYZ Statistics</p>
                 <p>ABC Lorem</p>
               </div>
 
-              <div className="upper-content-right">
+              <div className="upper-content right">
                 <h6>Recent Press</h6>
                 <img src={fastCompany} alt="Fast Company" />
                 <img src={nyTimes} alt="New York Times" />
