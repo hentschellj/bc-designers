@@ -708,6 +708,7 @@ $desktop: 1200px;
           @media screen and (min-width: $ipad) {
             width: 50%;
             float: left;
+            margin-top: 50px
           }
         }
         .lower-content-right {
@@ -731,6 +732,9 @@ $desktop: 1200px;
             }
           }
           .lower-content-lower {
+            @media screen and (min-width: $desktop) {
+              margin-top: 120px;
+            }
             h5 {
               font-family: "Harriet Display Bold";
               font-size: 38px;
