@@ -552,11 +552,12 @@ $desktop: 1200px;
                 display: flex;
                 flex-direction: row;
                 padding: 15px;
-                width: 25%;
+                width: 40%;
                 margin: 60px auto 0 auto;
                 word-break: break-word;
                 @media screen and (min-width: $desktop) {
                   background: #d3ba94;
+                  width: 25%
                 }
                 h5 {    
                   font-family: "Revisal Black";
