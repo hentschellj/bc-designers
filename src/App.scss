@@ -728,11 +728,15 @@ $desktop: 1200px;
 
           @media screen and (min-width: $ipad) {
             max-width: 30%;
-            font-size: 38px;
           }
 
           h5 {
             font-family: "Harriet Display Bold";
+            font-size: 1.5em;
+
+            @media screen and (min-width: $ipad) {
+              font-size: 38px;
+            }
           }
 
           h6 {
